@@ -43,7 +43,7 @@ ol, ul {
 /* End of Reset */
 /* Start of Custom Styles */
 body {
-	background-color: LightGray;
+	background-color: White;
 	font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
@@ -131,5 +131,21 @@ body {
 	border-color: #cf3d03;
 	cursor: pointer; 
 }
-
-
+.cases h2 {
+	font-size: 2.75rem;
+	margin-top: 1.625rem;
+	margin-right: 0px;
+	margin-bottom: 3.125rem;
+	margin-left: 0px;
+	font-weight: 300;
+	vertical-align: baseline;
+}
+.cases .content {
+	margin-top: 7.875rem;
+	color: #1d1e21;
+	text-align: center;
+}
+.cases .devices > li {
+	width: 33.333333%;
+	float: left;
+}
