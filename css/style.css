@@ -166,4 +166,17 @@ body {
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
 }
-
+.footer{
+	display: block;
+}
+.social{
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.social .content{
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
