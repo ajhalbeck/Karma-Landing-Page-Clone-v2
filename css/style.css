@@ -48,6 +48,7 @@ body {
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }	
 .content {
 	padding: 0 15px;
@@ -85,35 +86,50 @@ body {
 	cursor: pointer;
 	color: #333333;
 }
-.introduction{
+.introduction {
 	background-image: url(../img/first-background.jpg);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
 	overflow: auto;
+	font-size: 100%;
+	font: inherit;
 }
-.introduction h1{
+.introduction h1 {
 	margin-top: 17.5rem;
 	font-size: 3.124rem;
 }
-.introduction h1 .introduction h3{
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+.introduction h1, .introduction h3 {
 	color: white;
 	text-align: center;
 	font-weight: 300;
 }
-
+.introduction .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
+}
 .big-button{
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	padding: 16px 26px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
 	line-height: 1.33;
 	background-color: #f15a29;
+	border-color: #f15a29;
 	margin:0 auto;
 }
-.big-button li:hover{
-	background-color: 
+.big-button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d03;
+	cursor: pointer; 
 }
 
 
