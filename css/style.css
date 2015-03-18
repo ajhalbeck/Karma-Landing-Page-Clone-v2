@@ -43,7 +43,7 @@ ol, ul {
 /* End of Reset */
 /* Start of Custom Styles */
 body {
-	background-color: White;
+	background-color: LightGray;
 	font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
@@ -131,6 +131,11 @@ body {
 	border-color: #cf3d03;
 	cursor: pointer; 
 }
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
 .cases h2 {
 	font-size: 2.75rem;
 	margin-top: 1.625rem;
@@ -148,4 +153,17 @@ body {
 .cases .devices > li {
 	width: 33.333333%;
 	float: left;
+	display: inline-block;
 }
+.cases .content {
+	margin-top: 7.875rem;
+	color: #1d1e21;
+	text-align: center;
+	padding: none;
+}
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+
